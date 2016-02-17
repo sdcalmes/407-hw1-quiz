@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">cs407-hw1-quiz</string>
+    <string name="begin">Click to begin Quiz</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="q1">What country does this landmark reside in?</string>
+    <string name="q2">What is the number of the CS class that teaches you app development?</string>
 </resources>
