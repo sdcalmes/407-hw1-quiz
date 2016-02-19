@@ -1,6 +1,7 @@
 package com.sdcalmes.cs407_hw1_quiz;
 
 
+import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -43,6 +44,7 @@ public class question2 extends android.app.Fragment {
                     String selection = (String)btn.getText();
                     ((MainActivity)getActivity()).getAns2Data(selection.toUpperCase());
                     System.out.println("SHOULD CLOSE FRAGMENT");
+                    FragmentManager fm = getActivity().getFragmentManager();
                     getActivity().getFragmentManager().beginTransaction()
                             .remove(getFragmentManager()
                                     .findFragmentById(R.id.fragment_holder))
